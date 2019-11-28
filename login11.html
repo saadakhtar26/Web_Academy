@@ -1,0 +1,57 @@
+<html><head>
+<title>login</title>
+
+
+<script language="javascript" type="text/javascript">
+<!--- password protection script
+
+function thelogin() {
+
+var password = 'pepper';
+
+if (this.document.login.pass.value == password) {
+  top.location.href="correct11.html";
+}
+else {
+  location.href="incorrect11.html";
+  }
+}
+
+
+// end hiding --->
+</script>
+
+
+
+<style type="text/css">
+
+body { color: #0000ff; font: 12px verdana, arial, sans-serif; font-weight: normal }
+
+</style>
+
+
+
+
+
+</head>
+
+<body bgcolor="#E0E0E0">
+
+<br><br><br><br>
+
+
+
+<center>
+Enter your password:<br>
+<form name="login" style="margin: 0px">
+<input type="password" name="pass" size="17" onkeydown="if(event.keycode==13) event.keycode=9;" style="width: 158px; margin: 5px;"><br>
+<input type="button" value="click to login" style="width : 150px; margin: 3px" onclick="thelogin(this.form)">
+</form>
+</center>
+
+
+
+
+<br><br><br>
+
+</body></html>
